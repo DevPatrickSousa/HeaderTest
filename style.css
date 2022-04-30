@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+}
+
+nav
+{
+background-color: black;
+height: 80px;
+
+}
+
+
+li
+{
+    flex-wrap: nowrap;
+    font-size: 20px;
+    padding: 0 20px;
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: 'Concert One', cursive;
+    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav,ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+li:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+h1
+{
+color: white;
+text-align: center;
+left: 0;
+right: 0;
+top: 0;
+position: absolute;
+width: fit-content;
+margin: 0 auto;
+margin-top: 26px;
+font-family: 'Concert One', cursive;
+}
+.title
+{
+    height: 80px;
+margin: 0;
+top: 15px;
+font-size: x-large;
+padding-bottom: 5px;
+
+}
+header
+{
+    max-width: 100%;
+}
+a.logo
+{
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    margin-right: 74%;
+    width: 20px;
+    height: 40px;
+}
+.title:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.discount
+{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 18px;
+}
